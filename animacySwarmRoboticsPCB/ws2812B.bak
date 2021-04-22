@@ -1,0 +1,126 @@
+EESchema Schematic File Version 4
+LIBS:study2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2750 2950 0    50   Input ~ 0
+DIN
+Text HLabel 7350 3050 2    50   Input ~ 0
+DOUT
+$Comp
+L study2-rescue:WS2812B-akizukit1 U9
+U 1 1 5C971008
+P 3400 2950
+F 0 "U9" H 3400 3197 60  0000 C CNN
+F 1 "WS2812B" H 3400 3091 60  0000 C CNN
+F 2 "akizukit:WS2812B" H 3400 2600 60  0001 C CNN
+F 3 "" H 3400 2600 60  0001 C CNN
+	1    3400 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L study2-rescue:WS2812B-akizukit1 U10
+U 1 1 5C4A8296
+P 4500 2950
+F 0 "U10" H 4500 3197 60  0000 C CNN
+F 1 "WS2812B" H 4500 3091 60  0000 C CNN
+F 2 "akizukit:WS2812B" H 4500 2600 60  0001 C CNN
+F 3 "" H 4500 2600 60  0001 C CNN
+	1    4500 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L study2-rescue:WS2812B-akizukit1 U11
+U 1 1 5C4A82D2
+P 5600 2950
+F 0 "U11" H 5600 3197 60  0000 C CNN
+F 1 "WS2812B" H 5600 3091 60  0000 C CNN
+F 2 "akizukit:WS2812B" H 5600 2600 60  0001 C CNN
+F 3 "" H 5600 2600 60  0001 C CNN
+	1    5600 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L study2-rescue:WS2812B-akizukit1 U12
+U 1 1 5C4A8315
+P 6700 2950
+F 0 "U12" H 6700 3197 60  0000 C CNN
+F 1 "WS2812B" H 6700 3091 60  0000 C CNN
+F 2 "akizukit:WS2812B" H 6700 2600 60  0001 C CNN
+F 3 "" H 6700 2600 60  0001 C CNN
+	1    6700 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2950 2950 2950
+Wire Wire Line
+	2950 3250 2950 3150
+Wire Wire Line
+	2950 3150 4050 3150
+Wire Wire Line
+	4050 3150 4050 3050
+Connection ~ 2950 3150
+Wire Wire Line
+	2950 3150 2950 3050
+Wire Wire Line
+	4050 3150 5150 3150
+Wire Wire Line
+	5150 3150 5150 3050
+Connection ~ 4050 3150
+Wire Wire Line
+	5150 3150 6250 3150
+Wire Wire Line
+	6250 3150 6250 3050
+Connection ~ 5150 3150
+Wire Wire Line
+	7350 3050 7150 3050
+Wire Wire Line
+	7150 2950 7150 2600
+Wire Wire Line
+	7150 2600 6050 2600
+Wire Wire Line
+	3850 2600 3850 2950
+Wire Wire Line
+	3850 3050 3950 3050
+Wire Wire Line
+	3950 3050 3950 2950
+Wire Wire Line
+	3950 2950 4050 2950
+Wire Wire Line
+	4950 2600 4950 2950
+Connection ~ 4950 2600
+Wire Wire Line
+	4950 2600 3850 2600
+Wire Wire Line
+	4950 3050 5050 3050
+Wire Wire Line
+	5050 3050 5050 2950
+Wire Wire Line
+	5050 2950 5150 2950
+Wire Wire Line
+	6050 3050 6150 3050
+Wire Wire Line
+	6150 3050 6150 2950
+Wire Wire Line
+	6150 2950 6250 2950
+Wire Wire Line
+	6050 2950 6050 2600
+Connection ~ 6050 2600
+Wire Wire Line
+	6050 2600 4950 2600
+Text Label 3850 2600 2    60   ~ 0
+3V32
+Text Label 2950 3250 2    60   ~ 0
+GND2
+$EndSCHEMATC
