@@ -829,8 +829,6 @@ Text Label 1400 1350 2    60   ~ 0
 MVcc
 Text Label 2350 1800 0    60   ~ 0
 MGND
-Text Label 5900 4750 2    60   ~ 0
-M3V3
 Text Label 6600 4100 0    60   ~ 0
 MGND
 Text Label 6600 5150 0    60   ~ 0
@@ -1000,8 +998,6 @@ F 3 "" H 6250 4600 50  0001 C CNN
 	1    6250 4950
 	1    0    0    -1  
 $EndComp
-Text Label 5900 3700 2    60   ~ 0
-M3V3
 Text Label 6600 3800 0    60   ~ 0
 MFLOUT2
 Text Label 6600 4000 0    60   ~ 0
@@ -1189,4 +1185,8 @@ Text Label 9100 2750 0    60   ~ 0
 GND4
 Text Label 9100 2650 0    60   ~ 0
 3V34
+Text Label 5900 3700 2    60   ~ 0
+MVcc
+Text Label 5900 4750 2    60   ~ 0
+MVcc
 $EndSCHEMATC
