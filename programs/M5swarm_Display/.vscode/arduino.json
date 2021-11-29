@@ -1,0 +1,6 @@
+{
+    "configuration": "FlashMode=qio,FlashFreq=80,PartitionScheme=default,UploadSpeed=921600,DebugLevel=none",
+    "board": "espressif:esp32:m5stack-core-esp32",
+    "port": "COM5",
+    "sketch": "M5swarm_Display.ino"
+}
